@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"); 
+* {
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+header ul{
+  height: 50px;
+  background-color:white;
+  background-position: top 5% right 0;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #088178;
+}
+
+header ul li{
+  padding: 9px 80px 14px 45px;
+  color: #088178;
+}
+
+.profile-1{
+    display: flex;
+    flex-direction: row;
+}
+
+#welcome{
+    background: #e3e6f3;
+    height: 120vh;
+    width: 50%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  #welcome h4{
+    padding-bottom: 15px;
+  }
+  
+  #welcome h1{
+    color: #088178;
+  }
+  
+  #welcome button{
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 9px 80px 14px 45px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+.welcome-2 {
+    background-color: #088178;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.welcome-2 h3{
+  color: white;
+  text-align: center;
+}
+
+.profile-pic {
+    display: flex;
+    align-self: center;
+}
+
+.profile-form {
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
+  padding: 5px 10px;
+  width: 75%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.profile-form h3{
+  color: black;
+}
+
+.login-form {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 2px 10px 20px;
+  padding: 5px 10px;
+  width: 75%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-message {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.email-message {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.password-message {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.confirmed-password-message {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.email-form {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 2px 10px 20px;
+  padding: 5px 10px;
+  width: 75%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-login-field label{
+  display: flex;
+  justify-content: center;
+}
+
+.new-login-field input{
+  margin-left: 32%;
+  margin-right: 75%;
+}
+
+.new-password-field label{
+  display: flex;
+  justify-content: center;
+}
+
+.new-password-field input{
+  margin-left: 32%;
+  margin-right: 75%;
+}
+
+.new-email-field input{
+  margin-left: 32%;
+  margin-right: 75%;
+}
+
+.new-email-field label{
+  display: flex;
+  justify-content: center;
+}
+
+.new-confirmed-password-field label{
+  display: flex;
+  justify-content: center;
+}
+
+.new-confirmed-password-field input{
+  margin-left: 32%;
+  margin-right: 75%;
+}
+
+.password-form {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
+  padding: 5px 10px;
+  width: 75%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmed-password-form {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
+  padding: 5px 10px;
+  width: 75%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-close {
+  width: 30px;
+  cursor: pointer;
+}
+
+.email-close {
+  width: 30px;
+  cursor: pointer;
+}
+
+.password-close {
+  width: 30px;
+  cursor: pointer;
+}
+
+.confirmed-password-close {
+  width: 30px;
+  cursor: pointer;
+}
+
+.submit-change-login {
+  cursor: pointer;
+}
+
+.submit-change-email {
+  cursor: pointer;
+}
+
+.submit-change-password {
+  cursor: pointer;
+}
+
+.submit-new-login {
+  cursor: pointer;
+}
+
+.submit-new-password {
+  cursor: pointer;
+}
+
+.profile-form .submit{
+  background-color: #05f7ff;
+  color: #05f7ff;
+}
+
+input {
+    color: black;
+    font-weight: bolder;
+    border: 3px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    width: 200px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.footer {
+    background: #303036;
+    color: #d3d3d3;
+    height: 300px;
+    position: relative;
+    font-size: small;
+  }
+  
+  .footer .footer-content {
+    height: 300px;
+    display: flex;
+  }
+  
+  .footer .footer-content .footer-section {
+    flex: 1;
+    padding: 25px;
+  }
+  
+  .footer .footer-content h1,
+  .footer .footer-content h2 {
+    color: white;
+  }
+  
+  .footer .footer-content .about h1 span {
+    color: #05f7ff;
+  }
+  
+  .footer .footer-content .about .contact span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+  }
+  
+  .footer .footer-content .about .socials a {
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all .3s;
+  }
+  
+  .footer .footer-content .about .socials a:hover {
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+  }
+  
+  .footer .footer-content .links ul a {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1.2em;
+    transition: all .3s;
+  }
+  
+  .footer .footer-content .links ul a:hover {
+    color: white;
+    margin-left: 15px;
+    transition: all .3s;
+  }
+
+  .footer .footer-content .contact-form {
+    list-style-type: none;
+  }
+
+  .footer .footer-content .contact-form a{
+    color: white;
+  }  
+  
+
+  .footer .footer-content .contact-form .contact-input {
+    background: #272727;
+    color: #bebdbd;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: .9rem 1.4rem;
+    border: none;
+  }
+  
+  .footer .footer-content .contact-form .contact-input:focus {
+    background: #1a1a1a;
+  }
+  
+  .footer .footer-content .contact-form .contact-btn {
+    float: right;
+    font-size: 1.1em;
+    font-family: 'Lora', serif;
+  }
+  
+  .footer .footer-bottom {
+    background: #343a40;
+    color: #686868;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+  }

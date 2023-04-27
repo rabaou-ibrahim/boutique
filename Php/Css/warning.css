@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"); 
+* {
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+header ul{
+  height: 50px;
+  background-color:white;
+  background-position: top 5% right 0;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #088178;
+}
+
+header ul li{
+  padding: 9px 80px 14px 45px;
+  color: #088178;
+}
+
+h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+footer {
+  margin-top: 250px;
+}
