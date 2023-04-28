@@ -34,8 +34,11 @@
           </div>
         </section>
         <section class="shop-message">
-          <?php require_once('Php/require/getUserLogin.php'); echo "<h2> $row[login] </h2>"; ?> pour profiter de nos nouveaux articles, rdv ici : 
+          <?php require_once('Php/require/getUserLogin.php'); echo "<h2> $row[login] </h2>"; ?> pour profiter de nos nouveaux articles, c'est ici : 
           <a href="shop.php"> <button> Boutique </button> </a>
+          <div class="line"></div>
+          <h2> Modifier mon profil </h2>
+          <a href="#welcome-2"> <button> Modifier </button> </a>
         </section>
     </section>
 
