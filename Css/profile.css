@@ -57,12 +57,28 @@ header ul li{
   text-align: center;
 }
 
-.shop-message button{
+.shop-message{
+  height: 70vh;
+  width: 50%;
+  background-color: beige;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.line {
+  margin-top: 4%;
+  border-left: 500px solid rgba(0, 0, 0, 1);
+  height: 5px;
+  width: 350px;
+  align-self: center;
+}
+
+.shop-message a button{
+    margin-top: 2%;
     text-align: center;
     padding: 8px 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     color: #088178;
     font-weight: bolder;
     width: auto;
@@ -71,13 +87,6 @@ header ul li{
 .shop-message button:hover{ 
     color: red;
     cursor: pointer;
-}
-
-.shop-message{
-  height: 70vh;
-  width: 50%;
-  background-color: beige;
-  text-align: center;
 }
 
 #welcome{
