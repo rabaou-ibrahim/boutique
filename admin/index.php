@@ -13,7 +13,7 @@
     </head>
     
     <body>
-        <h1 class="text-logo"><span class="bi-shop"></span> Admin <span class="bi-shop"></span></h1>
+        <h1 class="text-logo"> Admin </h1>
         <div class="container admin">
             <div class="row">
                 <h1><strong>Liste des items   </strong><a href="insert.php" class="btn btn-success btn-lg"><span class="bi-plus"></span> Ajouter</a></h1>

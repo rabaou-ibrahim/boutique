@@ -119,7 +119,7 @@
     </head>
     
     <body>
-        <h1 class="text-logo"><span class="bi-shop"></span> Boutique <span class="bi-shop"></span></h1>
+        <h1 class="text-logo"> Boutique </h1>
         <div class="container admin">
             <div class="row">
                 <div class="col-md-6">

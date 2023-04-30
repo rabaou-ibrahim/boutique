@@ -127,7 +127,7 @@ function addProductToCart(title, price, productImg){
                                         <div class="detail-box">
                                             <div class="cart-product-title">${title}</div>
                                             <div class="cart-price">${price}</div>
-                                            <label for="cart-quantity">Quantité</label>
+                                            <label for="cart-quantity"></label>
                                             <input type="number" value="1" id="cart-quantity" class="cart-quantity" name="cart-quantity">
                                                 <select id="user-choice">
                                                     <option>Sélectionnez la taille</option>
@@ -185,7 +185,6 @@ function addProductToCart(title, price, productImg){
 // buy button - confirmation de l'achat
 document.getElementsByClassName("btn-buy-confirmed")[0].addEventListener("click", confirmPurchase);
 function confirmPurchase(){
-alert('Votre achat a bien été réalisé')
 BuyDiv.style.display = 'none'
 }
 // cancel button - annulation de l'achat

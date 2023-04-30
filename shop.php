@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    if (empty($_SESSION)){
+        header("location:Php/require/warning.php");
+    }
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -19,18 +25,9 @@
                 <h2> Votre achat :</h2>
                 <div id="cart-content-final" class="cart-content-final">
     
-                </div>  
-                <div class="field" id="field">
-                    <form class="data-form" action="">
-                        <div class="message" id="message">
-                        <label for="firstname">Prénom :</label>
-                        <input type="text" name="firstname" autocomplete="off">
-                        <label for="firstname">Nom :</label>
-                        <input type="text" name="lastname" autocomplete="off">              
-                    </form>
-                </div>            
+                </div>             
                 <div class="buttons">
-                    <button type="button" class="btn-buy-confirmed">Confirmer</button>
+                    <a href="pay.php"><button type="button" class="btn-buy-confirmed">Confirmer achat</button></a>
                     <button type="button" class="btn-buy-cancelled">Annuler</button>
                 </div>
         </section>

@@ -22,3 +22,7 @@ header ul li{
   padding: 9px 80px 14px 45px;
   color: #088178;
 }
+
+h3 :hover{
+  color: red;
+}

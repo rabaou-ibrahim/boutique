@@ -35,7 +35,7 @@
     </head>
     
     <body>
-      <h1 class="text-logo"><span class="bi-shop"></span> Admin <span class="bi-shop"></span></h1>
+      <h1 class="text-logo"> Admin </h1>
       <div class="container admin">
         <div class="row">
           <div class="col-md-6">

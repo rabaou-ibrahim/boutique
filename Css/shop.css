@@ -2,7 +2,107 @@
     background: url(../images/bg.png);
 } */
 
-  
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"); 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+.buy-div .cart-content-final .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1% );
+    padding-bottom: 70px;
+}
+
+.buy-div .cart-content-final .container form{
+    padding: 20px;
+    width: 700px;
+    background: #fff;
+box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+.buy-div .cart-content-final .container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+    
+   
+}
+
+.buy-div .cart-content-final .container form .row .col{
+    flex: 1 1 255px;
+}
+
+
+.buy-div .cart-content-final .container form .row .col .title{
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.buy-div .cart-content-final .container form .row .col  .inputBox{
+    margin: 15px;
+}
+.buy-div .cart-content-final .container form .row .col  .inputBox span{
+   margin-bottom: 5px 0;
+   display: block;
+
+}
+
+.buy-div .cart-content-final .container form .row .col  .inputBox input{
+    width: 100%;
+    border: 1px solid;
+    color: #000;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+
+}
+
+.buy-div .cart-content-final .container form .row .col  .inputBox input:focus{
+    border: 1px solid #000;
+}
+
+.buy-div .cart-content-final .container form .row .col .flex{
+    display: flex;
+    gap:15px;
+}
+
+.buy-div .cart-content-final .container form .row .col .flex .inputBox{
+    margin-top: 5px;
+}
+
+.buy-div .cart-content-final .container form .row .col .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+
+}
+
+.buy-div .cart-content-final .container form .submit-btn{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background-color: #27ae60;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.buy-div .cart-content-final .container form .submit-btn:hover{
+color: #2ecc71;
+}  
 
 .site {
     font-family: 'Holtwood One SC', sans-serif;
@@ -408,14 +508,16 @@ header{
 
 .buy-div{
   position: absolute;
-  left: 12%;
-  background-color: beige;
+  left: 10%;
+  right: 10%;
+  background-color: skyblue;
   border-radius: 10px;
-  width: 100%;
+  width: 70%;
   height: auto;
   z-index: 1000;
   display: flex;
   flex-direction: column;
+  align-self: center;
 }
 
 .buy-div p{
@@ -426,50 +528,6 @@ header{
 .buy-div h2{
   text-align: center;
 }
-
-.field {
-  background-color: white;
-  margin-left: 5%;
-  margin-right: 5%;
-  height: 65%;
-  display: flex;
-  flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.data-form{
-  background-color: white;
-  width: 80%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.data-form label{
-  font-weight: bolder;
-}
-
-.data-form input{
-    width:100%;
-    color: black;
-    font-weight: bolder;
-    border: 3px solid #aaa;
-    border-radius: 4px;
-    margin: 8px 0;
-    outline: none;
-    width: 200px;
-    padding: 8px;
-    box-sizing: border-box;
-}
-
-.data-form input:focus{
-    border-color: dodgerblue;
-    box-shadow: 0 0 8px 0 dodgerblue;
-}
-
 
 .buy-div .buttons{
   align-self: center;
@@ -512,18 +570,4 @@ header{
 
 .buy-div .btn-buy-cancelled:hover{
   background: black;
-}
-
-.buy-div .cart-content-final{
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-}
-
-.buy-div .cart-content-final p{
-  align-items: center;
-}
-
-.buy-div .cart-content-final content{
-  left: 0;
 }

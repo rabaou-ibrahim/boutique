@@ -15,7 +15,7 @@
         <a href="/boutique-en-ligne/authentification.php"><h2><li>Retour</li></h2></a>
       </ul>
     </header>
-    <h3> Aïe, il semblerait qu'aucune session est ouverte, veuillez vous connecter </h3>
+    <h3> Aïe, il semblerait qu'aucune session n'est ouverte, veuillez vous connecter </h3>
     <footer>
       <?php var_dump($_SESSION); ?>
     </footer>
